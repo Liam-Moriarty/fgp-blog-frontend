@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @import "tailwindcss";
 @import "tw-animate-css";
@@ -7,6 +7,7 @@
 
 @theme {
   --font-sans: "Poppins", sans-serif;
+  --font-title: "Cormorant Garamond", serif;
 
   --black-text: #222222;
   --white-text: #ffffff;
@@ -199,6 +200,18 @@
     @apply bg-background text-foreground;
     /* use the CSS variable set above for Tailwind/theme interop */
     font-family: var(--font-sans);
+  }
+
+  h1 {
+    @apply font-bold text-5xl tracking-wide;
+
+    font-family: var(--font-title);
+  }
+
+  h2 {
+    @apply font-bold text-4xl tracking-wide;
+
+    font-family: var(--font-title);
   }
 }
 
