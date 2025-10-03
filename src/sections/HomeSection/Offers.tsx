@@ -23,27 +23,33 @@ const Offers = () => {
   ];
 
   return (
-    <div className="grid grid-cols-4 gap-3">
-      {cards.map((card) => (
-        <div key={card.alt} className="h-auto flex flex-col gap-5">
-          <div className="w-full h-[350px]">
-            <img
-              src={card.src}
-              alt={card.alt}
-              className="w-full h-full object-contain"
-            />
-          </div>
+    <>
+      <div className="w-full h-auto flex flex-col gap-10 my-10">
+        <p className="title">What We Do and Offer</p>
 
-          <div className="flex flex-col gap-3 justify-start items-start">
-            <p className="font-semibold text-md">{card.label}</p>
-            <Button className="max-w-2/5 w-full">
-              Learn More
-              <LuArrowRight />
-            </Button>
-          </div>
+        <div className="grid grid-cols-4 gap-3">
+          {cards.map((card) => (
+            <div key={card.alt} className="h-auto flex flex-col gap-5">
+              <div className="w-full h-[350px]">
+                <img
+                  src={card.src}
+                  alt={card.alt}
+                  className="w-full h-full object-contain"
+                />
+              </div>
+
+              <div className="flex flex-col gap-3 justify-start items-start">
+                <p className="font-semibold text-md">{card.label}</p>
+                <Button className="max-w-2/5 w-full">
+                  Learn More
+                  <LuArrowRight />
+                </Button>
+              </div>
+            </div>
+          ))}
         </div>
-      ))}
-    </div>
+      </div>
+    </>
   );
 };
 
