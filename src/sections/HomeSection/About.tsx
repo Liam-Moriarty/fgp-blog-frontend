@@ -5,7 +5,7 @@ const About = () => {
     <>
       {/* About Us */}
       <div className="w-full h-auto flex justify-center items-center gap-5">
-        <div className="max-w-[600px] w-full h-[500px]">
+        <div className="max-w-[37.5rem] w-full h-[31.25rem]">
           <img
             src={aboutIllustration}
             alt="about illustration"
@@ -13,7 +13,7 @@ const About = () => {
           />
         </div>
 
-        <div className="max-w-[600px] w-full h-auto flex flex-col gap-3">
+        <div className="max-w-[37.5rem] w-full h-auto flex flex-col gap-3">
           <p className="title text-center">About Us</p>
           <p>
             FortuneGod connects Asia-Pacific opportunities with the Philippine
@@ -26,7 +26,7 @@ const About = () => {
 
       {/* Company Overview */}
       <div className="w-full h-auto flex justify-center items-center">
-        <div className="max-w-[1000px] w-full h-auto flex flex-col gap-5">
+        <div className="max-w-[62.5rem] w-full h-auto flex flex-col gap-5">
           <p className="title text-center">Company Overview</p>
           <p className="text-justify">
             Founded in 2023 in Taoyuan, Taiwan, FortuneGod International Trade
