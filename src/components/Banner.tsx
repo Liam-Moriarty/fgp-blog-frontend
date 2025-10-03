@@ -1,8 +1,8 @@
-import placeholder from "@/assets/manilaa.png";
+import placeholder from "@/assets/Carabaw-final.png";
 
 const Banner = () => {
   return (
-    <div className="max-w-[1200px] w-full h-[600px] flex justify-center items-center border">
+    <div className="max-w-[75rem] w-full h-[37.5rem] flex justify-center items-center border">
       <img
         src={placeholder}
         alt="placeholder"

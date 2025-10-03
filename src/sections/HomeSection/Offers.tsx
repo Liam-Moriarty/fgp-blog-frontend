@@ -30,7 +30,7 @@ const Offers = () => {
         <div className="grid grid-cols-4 gap-3">
           {cards.map((card) => (
             <div key={card.alt} className="h-auto flex flex-col gap-5">
-              <div className="w-full h-[350px]">
+              <div className="w-full h-[21.875rem]">
                 <img
                   src={card.src}
                   alt={card.alt}
