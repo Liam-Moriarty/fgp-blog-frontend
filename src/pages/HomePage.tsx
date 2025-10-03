@@ -13,15 +13,9 @@ const HomePage = () => {
       <Engagements />
 
       {/* What We Do Section */}
-      <div className="w-full h-auto flex flex-col gap-10 my-10">
-        <p className="font-bold text-center text-4xl tracking-wide leading-20">
-          What We Do and Offer
-        </p>
+      <Offers />
 
-        <Offers />
-      </div>
-
-      {/* About Section */}
+      {/* About & Overview Section */}
       <About />
     </div>
   );

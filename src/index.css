@@ -219,4 +219,8 @@
   .container {
     @apply max-w-[1440px] w-full px-10 py-5;
   }
+
+  .title {
+    @apply font-semibold text-center text-4xl tracking-wide leading-20;
+  }
 }
