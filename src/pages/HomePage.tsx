@@ -1,3 +1,4 @@
+import About from "@/sections/HomeSection/About";
 import Engagements from "@/sections/HomeSection/Engagements";
 import Hero from "@/sections/HomeSection/Hero";
 import Offers from "@/sections/HomeSection/Offers";
@@ -12,7 +13,7 @@ const HomePage = () => {
       <Engagements />
 
       {/* What We Do Section */}
-      <div className="w-full h-auto flex flex-col gap-10 mb-10">
+      <div className="w-full h-auto flex flex-col gap-10 my-10">
         <p className="font-bold text-center text-4xl tracking-wide leading-20">
           What We Do and Offer
         </p>
@@ -21,6 +22,7 @@ const HomePage = () => {
       </div>
 
       {/* About Section */}
+      <About />
     </div>
   );
 };
