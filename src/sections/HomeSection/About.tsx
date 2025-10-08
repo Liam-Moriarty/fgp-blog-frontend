@@ -25,7 +25,7 @@ const About = () => {
       </div>
 
       {/* Company Overview */}
-      <div className="w-full h-auto flex justify-center items-center">
+      <div className="w-full h-auto flex justify-center items-center my-10">
         <div className="max-w-[62.5rem] w-full h-auto flex flex-col gap-5">
           <p className="title text-center">Company Overview</p>
           <p className="text-justify">
