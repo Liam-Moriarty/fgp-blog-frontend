@@ -1,21 +1,17 @@
+import BaseCards from "@/components/BaseCards";
 import { engagementStats } from "@/constants";
 
 const Engagements = () => {
   return (
-    <>
-      <div className="h-auto flex justify-center items-center gap-5 my-10">
-        {engagementStats &&
-          engagementStats.map((count) => (
-            <div
-              key={count.label}
-              className="w-full h-auto rounded-md flex flex-col justify-center items-center gap-5 p-10 shadow-md"
-            >
-              <p className="text-xl font-bold ">{count.label}</p>
-              <p className="text-xl font-bold">{count.count}</p>
-            </div>
-          ))}
-      </div>
-    </>
+    <div className="w-full h-auto flex justify-center items-center gap-5 my-10">
+      {engagementStats &&
+        engagementStats.map((count) => (
+          <BaseCards key={count.label} className="w-full flex flex-col gap-5">
+            <p className="text-xl font-bold text-center">{count.label}</p>
+            <p className="text-xl font-bold text-center">{count.count}</p>
+          </BaseCards>
+        ))}
+    </div>
   );
 };
 
