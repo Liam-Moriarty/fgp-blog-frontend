@@ -23,7 +23,8 @@
 
 :root {
   --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
+  /* --foreground: oklch(0.145 0 0); */
+  --foreground: #584910; /* Custom foreground */
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
@@ -196,6 +197,7 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
     /* use the CSS variable set above for Tailwind/theme interop */
@@ -213,6 +215,18 @@
 
     font-family: var(--font-title);
   }
+
+  h3 {
+    @apply font-semibold text-center text-3xl tracking-wide;
+  }
+
+  h4 {
+    @apply text-xl font-semibold tracking-wide;
+  }
+
+  p {
+    @apply text-base tracking-wide leading-7;
+  }
 }
 
 @layer components {
@@ -220,7 +234,7 @@
     @apply max-w-[1440px] w-full px-10 py-5;
   }
 
-  .title {
-    @apply font-semibold text-center text-4xl tracking-wide leading-20;
+  .blockquote {
+    @apply italic text-sm tracking-tighter;
   }
 }

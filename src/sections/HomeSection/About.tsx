@@ -1,10 +1,10 @@
-import aboutIllustration from "@/assets/About-me-rafiki.png";
+import aboutIllustration from "@/assets/About me-rafiki.png";
 
 const About = () => {
   return (
     <>
       {/* About Us */}
-      <div className="w-full h-auto flex justify-center items-center gap-5">
+      <div className="w-full h-auto flex justify-center items-center gap-5 my-10">
         <div className="max-w-[37.5rem] w-full h-[31.25rem]">
           <img
             src={aboutIllustration}
@@ -14,8 +14,8 @@ const About = () => {
         </div>
 
         <div className="max-w-[37.5rem] w-full h-auto flex flex-col gap-3">
-          <p className="title text-center">About Us</p>
-          <p>
+          <h3>About Us</h3>
+          <p className="text-justify">
             FortuneGod connects Asia-Pacific opportunities with the Philippine
             market driving innovation in trade, e-commerce, and sustainable
             growth. Through ShoPilipinas, we empower businesses and communities
@@ -27,7 +27,7 @@ const About = () => {
       {/* Company Overview */}
       <div className="w-full h-auto flex justify-center items-center my-10">
         <div className="max-w-[62.5rem] w-full h-auto flex flex-col gap-5">
-          <p className="title text-center">Company Overview</p>
+          <h3>Company Overview</h3>
           <p className="text-justify">
             Founded in 2023 in Taoyuan, Taiwan, FortuneGod International Trade
             Co., Ltd. has quickly grown into a dynamic force in international

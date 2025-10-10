@@ -1,4 +1,4 @@
-import placeholder from "@/assets/Carabaw-final.png";
+import placeholder from "@/assets/manilaa.png";
 
 const Banner = () => {
   return (

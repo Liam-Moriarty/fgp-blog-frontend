@@ -1,4 +1,9 @@
-import type { CoreValues, Engagement, NavLink } from "@/interfaces";
+import ecommerce from "@/assets/offer/Ecommerce web page-amico.png";
+import trade from "@/assets/offer/International trade-rafiki.png";
+import operation from "@/assets/offer/Operating system upgrade-amico (1).png";
+import project from "@/assets/offer/Projections-bro.png";
+
+import type { CoreValues, Engagement, NavLink, OfferCards } from "@/interfaces";
 
 import {
   LuFolderOpen,
@@ -51,5 +56,20 @@ export const coreValues: CoreValues[] = [
     title: "Sustainability",
     description:
       "Investing in projects that benefit both economy and environment.",
+  },
+];
+
+export const cards: OfferCards[] = [
+  { src: ecommerce, alt: "Ecommerce Illustration", label: "Ecommerce" },
+  { src: trade, alt: "Trade Illustration", label: "International Trade" },
+  {
+    src: project,
+    alt: "Project Illustration",
+    label: "Project and Investment",
+  },
+  {
+    src: operation,
+    alt: "Operation Illustration",
+    label: "Turn Key Operation",
   },
 ];

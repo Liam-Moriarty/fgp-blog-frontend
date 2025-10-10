@@ -10,6 +10,12 @@ export interface Engagement {
   count: number;
 }
 
+export interface OfferCards {
+  src: string;
+  alt: string;
+  label: string;
+}
+
 export interface CoreValues {
   icon?: IconType;
   title: string;

@@ -12,9 +12,7 @@ const CoreValues = () => {
               className="flex flex-col justify-start gap-2"
             >
               <value.icon className="text-4xl" />
-              <h3 className="text-xl font-semibold tracking-wide">
-                {value.title}
-              </h3>
+              <h4>{value.title}</h4>
               <p className="text-base font-normal">{value.description}</p>
             </BaseCards>
           ) : (
@@ -22,9 +20,7 @@ const CoreValues = () => {
               key={value.title}
               className="flex justify-start items-center p-6"
             >
-              <h3 className="text-3xl font-semibold tracking-wide">
-                {value.title}
-              </h3>
+              <h4 className="text-3xl">{value.title}</h4>
             </div>
           )
         )}
