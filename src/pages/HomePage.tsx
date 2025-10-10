@@ -1,6 +1,7 @@
 import Divider from "@/components/Divider";
 import About from "@/sections/HomeSection/About";
 import Advantages from "@/sections/HomeSection/Advantages";
+import BusinessModel from "@/sections/HomeSection/BusinessModel";
 import CoreValues from "@/sections/HomeSection/CoreValues";
 import Engagements from "@/sections/HomeSection/Engagements";
 import Hero from "@/sections/HomeSection/Hero";
@@ -25,6 +26,8 @@ const HomePage = () => {
       <CoreValues />
 
       <Advantages />
+
+      <BusinessModel />
     </div>
   );
 };
