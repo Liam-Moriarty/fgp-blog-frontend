@@ -1,53 +1,9 @@
 import BaseCards from "@/components/BaseCards";
-import type { IconType } from "react-icons";
-import {
-  LuFolderOpen,
-  LuFiles,
-  LuFlag,
-  LuChartColumnIncreasing,
-  LuImage,
-} from "react-icons/lu";
+import { coreValues } from "@/constants";
 
 const CoreValues = () => {
-  interface CoreValues {
-    icon?: IconType;
-    title: string;
-    description?: string;
-  }
-
-  const coreValues: CoreValues[] = [
-    { title: "Core Values" },
-    {
-      icon: LuFolderOpen,
-      title: "Integrity",
-      description:
-        "Building trust through ethical and transparent business practices.",
-    },
-    {
-      icon: LuFiles,
-      title: "Professionalism",
-      description: "Delivering excellence at every stage of operation.",
-    },
-    {
-      icon: LuFlag,
-      title: "Innovation",
-      description:
-        "Creating cutting-edge solutions that anticipate future needs.",
-    },
-    {
-      icon: LuChartColumnIncreasing,
-      title: "Collaboration",
-      description: "Empowering partnerships that achieve shared success.",
-    },
-    {
-      icon: LuImage,
-      title: "Sustainability",
-      description:
-        "Investing in projects that benefit both economy and environment.",
-    },
-  ];
   return (
-    <div className="max-w-[70.5rem] w-full grid grid-cols-3 gap-5">
+    <div className="max-w-[70.5rem] w-full grid grid-cols-3 gap-5 my-10">
       {coreValues &&
         coreValues.map((value) =>
           value.icon && value.description ? (
