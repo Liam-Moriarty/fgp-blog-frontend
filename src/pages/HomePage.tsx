@@ -8,7 +8,7 @@ import Offers from "@/sections/HomeSection/Offers";
 
 const HomePage = () => {
   return (
-    <div className="container h-auto flex flex-col">
+    <div className="container h-auto flex flex-col items-center">
       {/* Banner Section */}
       <Hero />
 
