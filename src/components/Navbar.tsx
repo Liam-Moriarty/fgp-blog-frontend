@@ -17,7 +17,7 @@ import type { NavLink } from "@/interfaces";
 
 const Navbar = () => {
   return (
-    <div className="container h-[5rem] flex justify-between items-center">
+    <div className="wrapper h-[5rem] flex justify-between items-center">
       {/* Logo */}
       <div className="w-20 h-20">
         <img
