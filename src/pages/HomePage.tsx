@@ -28,6 +28,8 @@ const HomePage = () => {
       <Advantages />
 
       <BusinessModel />
+
+      <Divider />
     </div>
   );
 };
