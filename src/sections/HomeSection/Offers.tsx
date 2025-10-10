@@ -20,7 +20,7 @@ const Offers = () => {
 
             <div className="flex flex-col gap-3 justify-start items-start">
               <p className="font-semibold tracking-wide">{card.label}</p>
-              <Button className="max-w-2/5 w-full">
+              <Button className="w-fit">
                 Learn More
                 <LuArrowRight />
               </Button>

@@ -15,7 +15,7 @@
   --gray-bg: #e1e3e5;
   --white-bg: #ffffff;
 
-  --gray-border: #cfcfcf;
+  --gray-border: #584910;
 
   --primary-ctc: #ebb653;
   --secondary-ctc: #f5dba9;
@@ -230,7 +230,7 @@
 }
 
 @layer components {
-  .container {
+  .wrapper {
     @apply max-w-[1440px] w-full px-10 py-5;
   }
 

@@ -1,5 +1,5 @@
 const Announcement = () => {
-  return <div className="container h-auto">Announcement</div>;
+  return <div className="wrapper h-auto">Announcement</div>;
 };
 
 export default Announcement;

@@ -21,3 +21,9 @@ export interface CoreValues {
   title: string;
   description?: string;
 }
+
+export interface Accordion {
+  title: string;
+  description: string;
+  item: string;
+}

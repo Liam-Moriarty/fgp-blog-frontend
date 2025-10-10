@@ -1,5 +1,6 @@
 import Divider from "@/components/Divider";
 import About from "@/sections/HomeSection/About";
+import Advantages from "@/sections/HomeSection/Advantages";
 import CoreValues from "@/sections/HomeSection/CoreValues";
 import Engagements from "@/sections/HomeSection/Engagements";
 import Hero from "@/sections/HomeSection/Hero";
@@ -8,25 +9,22 @@ import Offers from "@/sections/HomeSection/Offers";
 
 const HomePage = () => {
   return (
-    <div className="container h-auto flex flex-col items-center">
-      {/* Banner Section */}
+    <div className="wrapper h-auto flex flex-col items-center">
       <Hero />
 
-      {/* Engagement Section */}
       <Engagements />
 
-      {/* What We Do Section */}
       <Offers />
 
-      {/* About & Overview Section */}
       <About />
 
-      {/* Mission & Vision Section */}
       <MissionVision />
 
       <Divider />
 
       <CoreValues />
+
+      <Advantages />
     </div>
   );
 };
