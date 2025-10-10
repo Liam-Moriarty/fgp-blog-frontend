@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="w-full h-auto flex flex-col items-center mt-15 mb-20">
         <h1>FGP FortuneGod Philippines</h1>
         <h2>FortuneGod Group of Companies</h2>
-        <span className="italic text-sm">
+        <span className="blockquote">
           “Connecting Markets, Empowering Communities, Creating Prosperity.”
         </span>
       </div>

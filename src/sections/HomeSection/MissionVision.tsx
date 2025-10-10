@@ -1,5 +1,5 @@
-import mission from "@/assets/mission.png";
-import vision from "@/assets/vision.png";
+import mission from "@/assets/missionVision/mission.png";
+import vision from "@/assets/missionVision/vision.png";
 
 const MissionVision = () => {
   return (
@@ -13,8 +13,8 @@ const MissionVision = () => {
             className="w-full h-full object-cover rounded-lg"
           />
         </div>
-        <div className="w-full h-auto flex flex-col">
-          <p className="title text-2xl">Mission</p>
+        <div className="w-full h-auto flex flex-col gap-3">
+          <h3>Mission</h3>
           <p className="text-justify">
             Integration: Develop a complete supply chain ecosystem from B2C to
             B2B, maximizing value creation. Innovation: Harness AI, live
@@ -29,8 +29,8 @@ const MissionVision = () => {
 
       {/* Vision */}
       <div className="max-w-[70.5rem] w-full h-auto flex justify-center items-center gap-5">
-        <div className="w-full h-auto flex flex-col">
-          <p className="title text-2xl">Vision</p>
+        <div className="w-full h-auto flex flex-col gap-3">
+          <h3>Vision</h3>
           <p className="text-justify">
             To be Asia-Pacific’s most trusted innovator in cross-border trade
             and e-commerce, driving prosperity and modernization through
