@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
       {/* About Us */}
-      <div className="max-w-[70.5rem] w-full h-auto flex justify-center items-center gap-5 my-10">
+      <div className="max-w-[70.5rem] w-full h-auto flex justify-center items-center gap-5">
         <div className="w-full h-[31.25rem]">
           <img
             src={aboutIllustration}

@@ -227,6 +227,13 @@
   p {
     @apply text-base tracking-wide leading-7;
   }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-[var(--primary-ctc)] rounded-md;
+  }
+  ::-webkit-scrollbar {
+    @apply w-[8px] h-[3px] bg-[var(--secondary-ctc)];
+  }
 }
 
 @layer components {
